@@ -1,0 +1,61 @@
+{
+  "n_original": 10000,
+  "n_unique": 7500,
+  "n_duplicate_removed": 2500,
+  "classes": {
+    "0": 2539,
+    "1": 2490,
+    "2": 2471
+  },
+  "columns": [
+    "engine_displacement_l",
+    "horsepower_hp",
+    "vehicle_weight_kg",
+    "wheelbase_mm",
+    "vehicle_length_mm",
+    "vehicle_width_mm",
+    "vehicle_height_mm",
+    "fuel_tank_capacity_l",
+    "city_fuel_efficiency_kmpl",
+    "highway_fuel_efficiency_kmpl",
+    "engine_cylinders",
+    "torque_nm",
+    "ground_clearance_mm",
+    "turning_radius_m",
+    "cargo_capacity_l",
+    "acceleration_0_100_kmh_s",
+    "braking_distance_m",
+    "tire_width_mm",
+    "drag_coefficient",
+    "battery_capacity_kwh"
+  ],
+  "screen": 58,
+  "repeat": 12,
+  "top5": [
+    {
+      "name": "logit_power_c1",
+      "cv_mean": 0.8929333333333332,
+      "gap": 0.004733333333333478
+    },
+    {
+      "name": "blend_logit_svmdomain_70_30",
+      "cv_mean": 0.8927999999999999,
+      "gap": NaN
+    },
+    {
+      "name": "blend_logit_svmdomain_50_50",
+      "cv_mean": 0.8927999999999999,
+      "gap": NaN
+    },
+    {
+      "name": "logit_c0p7",
+      "cv_mean": 0.8926666666666666,
+      "gap": 0.004133333333333322
+    },
+    {
+      "name": "logit_c2",
+      "cv_mean": 0.8925333333333333,
+      "gap": 0.0043999999999999595
+    }
+  ]
+}
